@@ -12,7 +12,7 @@ namespace ABM_ASS
     {
         static ABOM_Assortment()
         {
-            Log.Message("Abominal Assortment - Ready!");
+            Log.Message("Abominable Assortment - Ready!");
         }
     }
 }

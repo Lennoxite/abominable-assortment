@@ -26,7 +26,7 @@
     </statBases>
     <drawGUIOverlay>false</drawGUIOverlay>
     <recipeMaker>
-      <researchPrerequisite>InsanityWeaponry</researchPrerequisite>
+      <researchPrerequisite>AbomAss_ChimeralTaming</researchPrerequisite>
       <recipeUsers>
         <li>BioferriteShaper</li>
       </recipeUsers>
@@ -49,12 +49,11 @@
         <compClass>CompTargetable_SinglePawn</compClass>
         <psychicSensitiveTargetsOnly>false</psychicSensitiveTargetsOnly>
         <doCameraShake>false</doCameraShake>
-        <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
         <fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
         <fleckOnUsedScale>10</fleckOnUsedScale>
       </li>
       <li>
-        <compClass>CompTargetEffect_Manhunter</compClass>
+        <compClass>ABM_ASS.CompTargetEffect_TameChimera</compClass>
       </li>
       <li Class="CompProperties_UseEffectArtifact">
         <sound>PsychicAnimalPulserCast</sound>

@@ -28,8 +28,8 @@
   
   <ResearchProjectDef>
     <defName>AbomAss_ChimeralClaws</defName>
-    <label>bioferrite claw gauntlets</label>
-    <description>Using upright chimeras as a base, design a powerful bioferrite-plasteel gauntlet that can shred organs in seconds.</description>
+    <label>bioferrite berserker gear</label>
+    <description>Using upright chimeras as a base, design a powerful bioferrite-plasteel claw gauntlet that can shred organs in seconds and a set of bioferrite berserker armor.</description>
     <tab>AbomAss_Abominable</tab>
     <knowledgeCost>15</knowledgeCost>
     <knowledgeCategory>AbomAss_SimpleAbom</knowledgeCategory>
