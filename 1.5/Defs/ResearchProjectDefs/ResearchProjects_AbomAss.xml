@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bioferrite content -->
+
+  <ResearchProjectDef>
+    <defName>AbomAss_ChimeralTaming</defName>
+    <label>chimera pacification</label>
+    <description>Create a specialized psychic lance that can permanently sever the bond upright chimeras have with the void and take over their vacant minds, transforming them into loyal animals.</description>
+    <tab>AbomAss_Abominable</tab>
+    <knowledgeCost>10</knowledgeCost>
+    <knowledgeCategory>AbomAss_SimpleAbom</knowledgeCategory>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->chimeral taming</li>
+
+        <li>subject_story->pet a giant monster</li>
+        <li>subject_story->called upon a vicious monster</li>
+        <li>subject_story->studied the behavior of a strange beast</li>
+        <li>subject_story->adopted a dirty puppy</li>
+
+        <li>subject_gerund->pacifying a monster</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+</Defs>

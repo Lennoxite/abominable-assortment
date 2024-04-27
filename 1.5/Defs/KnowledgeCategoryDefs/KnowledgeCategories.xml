@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <KnowledgeCategoryDef>
+    <defName>AbomAss_SimpleAbom</defName>
+    <label>simple abominable</label>
+    <color>(1, 1, 1, 1)</color>
+    <texPath>UI/AnomalyResearchCategoryMarkers/AnomalyResearchCategory_Basic</texPath>
+  </KnowledgeCategoryDef>
+
+  <KnowledgeCategoryDef>
+    <defName>AbomAss_AdvancedAbom</defName>
+    <label>extremely abominable</label>
+    <color>(1, 1, 1, 1)</color>
+    <texPath>UI/AnomalyResearchCategoryMarkers/AnomalyResearchCategory_Advanced</texPath>
+    <overflowCategory>AbomAss_SimpleAbom</overflowCategory>
+  </KnowledgeCategoryDef>
+
+</Defs>

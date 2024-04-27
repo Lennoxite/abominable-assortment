@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchTabDef>
+    <defName>AbomAss_Abominable</defName>
+	<label>abominable</label>
+    <generalTitle>Abominable assortment research</generalTitle>
+    <generalDescription>Study natural and unnatural creatures for abominable research.</generalDescription>
+    <visibleByDefault>true</visibleByDefault>
+    <minMonolithLevelVisible>0</minMonolithLevelVisible>
+  </ResearchTabDef>
+
+</Defs>
