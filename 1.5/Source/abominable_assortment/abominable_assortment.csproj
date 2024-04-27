@@ -49,8 +49,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbAss_PawnGroupKindDefOf.cs" />
     <Compile Include="AbAss_PawnKindDefOf.cs" />
     <Compile Include="CompTargetEffect_TameChimera.cs" />
+    <Compile Include="IncidentWorker_UprightChimeraAssault.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

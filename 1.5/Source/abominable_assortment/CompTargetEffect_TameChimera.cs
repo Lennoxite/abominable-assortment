@@ -56,7 +56,7 @@ namespace ABM_ASS
 				EffecterDefOf.ChimeraRage.Spawn(pawn3.Position, pawn3.Map, 1f).Cleanup();
 			}
 
-		}
+		
 		}
 	}
 }
