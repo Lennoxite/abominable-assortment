@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>AbomAss_ChimeraGauntlets</defName>
+    <label>chimeral gauntlets</label>
+    <description>A gnarled and powerful clawed gauntlet that shreds organs in seconds. The innate bioferrite also affects psychic sensitivity.</description>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <costList>
+      <Bioferrite>50</Bioferrite>
+      <Plasteel>50</Plasteel>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AbomAss_ChimeralClaws</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>430</displayPriority>
+    </recipeMaker>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.33</PsychicSensitivityOffset>
+    </equippedStatOffsets>
+    <tools>
+      <li>
+        <label>claw</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <graphicData>
+      <texPath>Things/Item/WeaponMelee/AbomAss_ChimeralClaws</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+
+</Defs>

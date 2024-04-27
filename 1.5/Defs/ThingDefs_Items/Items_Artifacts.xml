@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ArtifactBase">
+    <defName>AbomAss_ShardChimeraTamer</defName>
+    <label>chimeral pacifier</label>
+    <description>A specialized psychic lance that severs the mind of an upright chimera from the void and immediately imprints the user onto the now vacant mind, turning the chimera into a loyal animal.</description>
+    <graphicData>
+      <texPath>Things/Item/Artifact/ShardAnimalPulser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <relicChance>1</relicChance>
+    <tradeNeverStack>true</tradeNeverStack>
+    <genericMarketSellable>false</genericMarketSellable>
+    <tradeTags Inherit="False">
+      <li>UtilitySpecial</li>
+    </tradeTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <WorkToMake>19200</WorkToMake>
+      <MaxHitPoints>60</MaxHitPoints>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <recipeMaker>
+      <researchPrerequisite>InsanityWeaponry</researchPrerequisite>
+      <recipeUsers>
+        <li>BioferriteShaper</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>110</displayPriority>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+    </recipeMaker>
+    <costList>
+      <Shard>1</Shard>
+      <Bioferrite>75</Bioferrite>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SinglePawn</compClass>
+        <psychicSensitiveTargetsOnly>false</psychicSensitiveTargetsOnly>
+        <doCameraShake>false</doCameraShake>
+        <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
+        <fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
+        <fleckOnUsedScale>10</fleckOnUsedScale>
+      </li>
+      <li>
+        <compClass>CompTargetEffect_Manhunter</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectArtifact">
+        <sound>PsychicAnimalPulserCast</sound>
+      </li>
+      <li Class="CompProperties_UseEffectPlayWarmupSound">
+        <warmupSound>PsychicArtifactWarmupSustained</warmupSound>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

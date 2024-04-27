@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- Bioferrite content -->
+  <!-- Upright Chimeras -->
 
   <ResearchProjectDef>
     <defName>AbomAss_ChimeralTaming</defName>
@@ -21,6 +21,28 @@
         <li>subject_story->adopted a dirty puppy</li>
 
         <li>subject_gerund->pacifying a monster</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  
+  <ResearchProjectDef>
+    <defName>AbomAss_ChimeralClaws</defName>
+    <label>bioferrite claw gauntlets</label>
+    <description>Using upright chimeras as a base, design a powerful bioferrite-plasteel gauntlet that can shred organs in seconds.</description>
+    <tab>AbomAss_Abominable</tab>
+    <knowledgeCost>15</knowledgeCost>
+    <knowledgeCategory>AbomAss_SimpleAbom</knowledgeCategory>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.5</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->chimera claws</li>
+
+        <li>subject_story->sharpened beast claws</li>
+        <li>subject_story->struck with violent fervor</li>
+
+        <li>subject_gerund->forging a cruel gauntlet</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
