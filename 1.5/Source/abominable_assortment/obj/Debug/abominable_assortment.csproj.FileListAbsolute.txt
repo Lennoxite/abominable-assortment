@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\abominable-assortment\1.5\Assemblies\abominable_assortment.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\abominable-assortment\1.5\Source\abominable_assortment\obj\Debug\abominable_assortment.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\abominable-assortment\1.5\Source\abominable_assortment\obj\Debug\abominable_assortment.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\abominable-assortment\1.5\Source\abominable_assortment\obj\Debug\abominable_assortment.dll
