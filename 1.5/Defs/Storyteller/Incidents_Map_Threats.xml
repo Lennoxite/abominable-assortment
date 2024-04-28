@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <IncidentDef ParentName="EntityAttackBase">
+    <defName>AbomAss_UprightChimeraAssault</defName>
+    <label>upright chimera assault</label>
+    <workerClass>ABM_ASS.IncidentWorker_UprightChimeraAssault</workerClass>
+    <baseChance>2</baseChance>
+    <minAnomalyThreatLevel>1</minAnomalyThreatLevel>
+    <minThreatPoints>300</minThreatPoints>
+  </IncidentDef>
+</Defs>
